@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/showBImage"
+            android:title="show Bigger Image" />
+        <item android:id="@+id/GoUrl"
+            android:title="show the official web page of manufacturer" />
+        <item android:id="@+id/showDealers"
+            android:title="show Dealers in Chicago" />
+</menu>
+
+
