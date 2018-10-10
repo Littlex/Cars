@@ -31,23 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent toy = new Intent(MainActivity.this, BigImage.class);
                 toy.putExtra("imagePosition", position);
                 startActivity(toy);
-//                startActivityForResult(toy,2);
-            }
-        });
-
-
-
-
-        gridview.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-
-                return false;
             }
         });
 
         registerForContextMenu(gridview);
-
     }
 
     @Override
@@ -77,6 +64,13 @@ public class MainActivity extends AppCompatActivity {
                 open_url.setData(Uri.parse(carURL[info.position]));
                 startActivity(open_url);
                 return true;
+
+            case R.id.showDealers:
+                Intent show_dealer = new Intent(MainActivity.this, carDealer.class);
+                show_dealer.putExtra("imagePosition", info.position);
+                startActivity(show_dealer);
+                return true;
+
             default:
                 return super.onContextItemSelected(item);
         }

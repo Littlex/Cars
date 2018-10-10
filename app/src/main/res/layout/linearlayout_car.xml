@@ -8,8 +8,7 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:orientation="vertical" android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:gravity="center"
-    >
+android:gravity="center">
 
 <FrameLayout
     android:layout_width="wrap_content"
@@ -20,17 +19,6 @@ android:gravity="center"
         android:layout_width="300dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"/>
-
-    <!--android:layout_width="wrap_content"-->
-
-
-    <!--<ImageView-->
-        <!--android:id="@+id/imageview_favorite"-->
-        <!--android:layout_width="24dp"-->
-        <!--android:layout_height="24dp"-->
-        <!--android:src="@drawable/star_disabled"-->
-        <!--android:layout_gravity="bottom|right"/>-->
-
 
 </FrameLayout>
 
@@ -45,13 +33,5 @@ android:gravity="center"
     android:paddingLeft="8dp"
     android:paddingRight="8dp"
     android:gravity="center_horizontal"/>
-
-<!--<TextView-->
-    <!--android:id="@+id/textview_book_author"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:textSize="12sp"-->
-    <!--tools:text="Dr. Seuss"-->
-    <!--android:gravity="center_horizontal"/>-->
 
 </LinearLayout>

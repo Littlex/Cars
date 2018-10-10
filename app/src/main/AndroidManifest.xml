@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BigImage"></activity>
+        <activity android:name=".carDealer"></activity>
     </application>
 
 </manifest>
